@@ -1,0 +1,18 @@
+.libary {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20rem;
+  height: 100%;
+  background-color: rgb(128, 165, 165);
+  box-shadow: 2px 2px 50px rgb(204, 202, 202);
+}
+
+.libary-songs {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  img {
+    width: 20%;
+  }
+}
