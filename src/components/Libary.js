@@ -5,7 +5,7 @@ export default function Libary({ songs }) {
   return (
     <div className="libary">
       <h2>Libary</h2>
-      <div className="libary-songs">
+      <div>
         {songs.map((song) => (
           <LibarySong song={song} />
         ))}
